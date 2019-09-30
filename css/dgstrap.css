@@ -534,6 +534,12 @@ html {
   }
 }
 
+.d-inline-flex {
+  display: -ms-inline-flexbox !important;
+  display: -webkit-inline-box !important;
+  display: inline-flex !important;
+}
+
 .m-0 {
   margin: 0 !important;
 }

@@ -461,3 +461,9 @@ html {
     max-width: 100%;
   }
 }
+
+.d-inline-flex {
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+}
+

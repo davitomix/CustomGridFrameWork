@@ -1,0 +1,15 @@
+@import "variables";
+nav {
+  .nav-box-left {
+    background-color: $randomcolor-4;
+    a {
+      img {
+        width: 116px;
+        height: 44px;
+      }
+    }
+  }
+  .nav-box-right{
+    background-color: $randomcolor-5;
+  }
+}
