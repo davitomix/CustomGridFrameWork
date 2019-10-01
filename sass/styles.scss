@@ -1,60 +1,67 @@
 @import "variables";
 nav {
   min-height: 72px;
-
-  .nav-box-left {
-    background-color: $randomcolor-4;
-    border-bottom: 2px solid rgb(252, 21, 34);
-    display: inline-flex;
-    .rw {
-      img {
-        width: 116px;
-        height: 44px;
-      }
-      a {
-        color: black;
-        font-weight: bolder;
-        padding: 0;
-      }
-      a:hover {
-        color: rgb(149, 148, 148);
-      }
-      a:nth-of-type(6) img {
-        width: 20px;
-        height: 20px;
-      }
-    }
-  }
-  .nav-box-left {
-    display: none;    
-  }
-
-  .fa-bars {
-    color: black;
-  }
-  
-  .nav-box-right{
-    background-color: $randomcolor-5;
-    border-bottom: 2px solid rgb(252, 21, 34);
-    display: inline-flex;
-    .rw {
-      .fa-bell {
-        color: orange;
-        // padding: 1em;
-        }
-      }
+  div {
+    .nav-box-left {
+      background-color: $randomcolor-4;
+      border-bottom: 2px solid rgb(252, 21, 34);
+      display: inline-flex;
       .rw {
+        img {
+          margin-left: 5px;
+          width: 116px;
+          height: 44px;
+        }
         a {
           color: black;
           font-weight: bolder;
-          // padding: 1em;
+          padding: 0;
+        }
+        a:hover {
+          color: rgb(149, 148, 148);
+        }
+        a:nth-of-type(6) img {
+          width: 20px;
+          height: 20px;
         }
       }
     }
+    .nav-box-left {
+      display: none;    
+    }
+  
+    .fa-bars {
+      color: black;
+    }
+
+    .mid-nav-trick {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .nav-box-right{
+      background-color: $randomcolor-5;
+      border-bottom: 2px solid rgb(252, 21, 34);
+      display: inline-flex;
+      .rw {
+        .fa-bell {
+          color: orange;
+          // padding: 1em;
+          }
+        }
+        .rw {
+          a {
+            color: black;
+            font-weight: bolder;
+            // padding: 1em;
+          }
+        }
+    }
+  }
 }
 
 .main-cont {
-  max-width: 72%;
+  // max-width: 72%;
   header {
     .col-header {
       min-height: 100px;
@@ -71,11 +78,11 @@ nav {
   }
 }
 
-@media screen and (max-width: 1400px) {
-  .rows {
-    max-width: 100%;
-  }
-}
+// @media screen and (max-width: 1400px) {
+//   .rows {
+//     max-width: 100%;
+//   }
+// }
 
 
 
