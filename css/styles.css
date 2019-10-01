@@ -1,5 +1,16 @@
 nav .nav-box-left {
   background-color: #a75eb9;
+  border-bottom: 2px solid gray;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 nav .nav-box-left a img {
@@ -7,7 +18,35 @@ nav .nav-box-left a img {
   height: 44px;
 }
 
+nav .nav-box-left .rw a {
+  color: black;
+  font-weight: bolder;
+  padding: 1em;
+}
+
 nav .nav-box-right {
   background-color: #b95e84;
+  border-bottom: 2px solid gray;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+nav .nav-box-right .rw .fa-bell {
+  color: orange;
+  padding: 1em;
+}
+
+nav .nav-box-right .rw a {
+  color: black;
+  font-weight: bolder;
+  padding: 1em;
 }
 /*# sourceMappingURL=styles.css.map */

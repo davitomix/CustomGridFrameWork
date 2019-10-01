@@ -2,14 +2,42 @@
 nav {
   .nav-box-left {
     background-color: $randomcolor-4;
+    border-bottom: 2px solid gray;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
     a {
       img {
         width: 116px;
         height: 44px;
       }
     }
+    .rw {
+      a {
+        color: black;
+        font-weight: bolder;
+        padding: 1em;
+      }
+    }
   }
   .nav-box-right{
     background-color: $randomcolor-5;
+    border-bottom: 2px solid gray;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    .rw {
+      .fa-bell {
+        color: orange;
+        padding: 1em;
+        }
+      }
+      .rw {
+        a {
+          color: black;
+          font-weight: bolder;
+          padding: 1em;
+        }
+      }
+    }
   }
-}
