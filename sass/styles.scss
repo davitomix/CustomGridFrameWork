@@ -51,4 +51,24 @@ nav {
         }
       }
     }
+}
+
+.main-cont {
+  header {
+    .col-header {
+      min-height: 100px;
+    }
+    .h-left {
+      background-color: $randomcolor-2;
+    } 
+    .h-mid {
+      background-color: $randomcolor-1;
+    }
+    .h-right {
+      background-color: $randomcolor-3;
+    }
   }
+}
+
+
+
