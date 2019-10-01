@@ -1,0 +1,79 @@
+nav {
+  min-height: 72px;
+}
+
+nav div .nav-box-left {
+  background-color: #a75eb9;
+  border-bottom: 2px solid #fc1522;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+nav div .nav-box-left .rw img {
+  margin-left: 5px;
+  width: 116px;
+  height: 44px;
+}
+
+nav div .nav-box-left .rw a {
+  color: black;
+  font-weight: bolder;
+  padding: 0;
+}
+
+nav div .nav-box-left .rw a:hover {
+  color: #959494;
+}
+
+nav div .nav-box-left .rw a:nth-of-type(6) img {
+  width: 20px;
+  height: 20px;
+}
+
+nav div .nav-box-left {
+  display: none;
+}
+
+nav div .fa-bars {
+  color: black;
+}
+
+nav div .mid-nav-trick {
+  width: 100%;
+  height: 100%;
+}
+
+nav div .nav-box-right {
+  background-color: #b95e84;
+  border-bottom: 2px solid #fc1522;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+nav div .nav-box-right .rw .fa-bell {
+  color: orange;
+}
+
+nav div .nav-box-right .rw a {
+  color: black;
+  font-weight: bolder;
+}
+
+.main-cont header .col-header {
+  min-height: 100px;
+}
+
+.main-cont header .h-left {
+  background-color: #5eb979;
+}
+
+.main-cont header .h-mid {
+  background-color: #9eb95e;
+}
+
+.main-cont header .h-right {
+  background-color: #5e7eb9;
+}
+/*# sourceMappingURL=styles.css.map */
