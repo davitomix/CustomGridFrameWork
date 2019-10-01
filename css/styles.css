@@ -55,6 +55,10 @@ nav .nav-box-right .rw a {
   font-weight: bolder;
 }
 
+.main-cont {
+  max-width: 72%;
+}
+
 .main-cont header .col-header {
   min-height: 100px;
 }
@@ -69,5 +73,11 @@ nav .nav-box-right .rw a {
 
 .main-cont header .h-right {
   background-color: #5e7eb9;
+}
+
+@media screen and (max-width: 1400px) {
+  .rows {
+    max-width: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

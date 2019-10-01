@@ -839,7 +839,7 @@ html {
   margin-left: 91.666667%;
 }
 
-@media (min-width: 576px) {
+@media screen and (max-width: 576px) {
   .order-sm-first {
     -ms-flex-order: -1;
     order: -1;
@@ -938,7 +938,7 @@ html {
   }
 }
 
-@media (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .order-md-first {
     -ms-flex-order: -1;
     order: -1;
@@ -1037,7 +1037,7 @@ html {
   }
 }
 
-@media (min-width: 992px) {
+@media screen and (max-width: 992px) {
   .order-lg-first {
     -ms-flex-order: -1;
     order: -1;

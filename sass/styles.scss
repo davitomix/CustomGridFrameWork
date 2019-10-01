@@ -54,6 +54,7 @@ nav {
 }
 
 .main-cont {
+  max-width: 72%;
   header {
     .col-header {
       min-height: 100px;
@@ -69,6 +70,13 @@ nav {
     }
   }
 }
+
+@media screen and (max-width: 1400px) {
+  .rows {
+    max-width: 100%;
+  }
+}
+
 
 
 
