@@ -1,42 +1,45 @@
 @import "variables";
 nav {
+  min-height: 72px;
+
   .nav-box-left {
     background-color: $randomcolor-4;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(252, 21, 34);
     display: inline-flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    a {
+    .rw {
       img {
         width: 116px;
         height: 44px;
       }
-    }
-    .rw {
       a {
         color: black;
         font-weight: bolder;
-        padding: 1em;
+        padding: 0;
+      }
+      a:hover {
+        color: rgb(149, 148, 148);
+      }
+      a:nth-of-type(6) img {
+        width: 20px;
+        height: 20px;
       }
     }
   }
   .nav-box-right{
     background-color: $randomcolor-5;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(252, 21, 34);
     display: inline-flex;
-    flex-direction: row;
-    justify-content: flex-end;
     .rw {
       .fa-bell {
         color: orange;
-        padding: 1em;
+        // padding: 1em;
         }
       }
       .rw {
         a {
           color: black;
           font-weight: bolder;
-          padding: 1em;
+          // padding: 1em;
         }
       }
     }
