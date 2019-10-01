@@ -61,6 +61,10 @@ nav div .nav-box-right .rw a {
   font-weight: bolder;
 }
 
+.main-cont {
+  max-width: 100%;
+}
+
 .main-cont header .col-header {
   min-height: 100px;
 }
@@ -75,5 +79,37 @@ nav div .nav-box-right .rw a {
 
 .main-cont header .h-right {
   background-color: #5e7eb9;
+}
+
+.headline {
+  color: black;
+}
+
+.headline .headerline-row {
+  color: black;
+}
+
+.headline .headerline-row .headline-title {
+  color: #000;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+.headline .headline-col .headline-ul .headline-li {
+  border-bottom: 1px solid gray;
+  list-style: none;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.headline .headline-col .headline-ul .headline-li .headline-div a {
+  color: black;
+}
+
+.headline .headline-col .headline-ul .headline-li .headline-div a:hover {
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
 }
 /*# sourceMappingURL=styles.css.map */
