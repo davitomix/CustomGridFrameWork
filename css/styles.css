@@ -30,6 +30,14 @@ nav .nav-box-left .rw a:nth-of-type(6) img {
   height: 20px;
 }
 
+nav .nav-box-left {
+  display: none;
+}
+
+nav .fa-bars {
+  color: black;
+}
+
 nav .nav-box-right {
   background-color: #b95e84;
   border-bottom: 2px solid #fc1522;

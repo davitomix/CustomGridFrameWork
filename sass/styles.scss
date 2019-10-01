@@ -25,6 +25,14 @@ nav {
       }
     }
   }
+  .nav-box-left {
+    display: none;    
+  }
+
+  .fa-bars {
+    color: black;
+  }
+  
   .nav-box-right{
     background-color: $randomcolor-5;
     border-bottom: 2px solid rgb(252, 21, 34);

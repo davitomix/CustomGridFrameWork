@@ -807,6 +807,49 @@ html {
   }
 }
 
+.d-none {
+  display: none !important;
+}
+
+@media (min-width: 992px) {
+  .d-xl-none {
+    display: none !important;
+  }
+  .d-xl-inline-flex {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .d-lg-none {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .d-md-none {
+    display: none !important;
+  }
+  .d-md-inline-flex {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .d-sm-none {
+    display: none !important;
+  }
+  .d-sm-inline-flex {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
+}
+
 .m-0 {
   margin: 0 !important;
 }
