@@ -1,59 +1,265 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Grid Framwork Demo</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/dgstrap.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-</head>
-<body class="m-0">
-  <nav class= "ctn-fld d-inline-flex pl-0 pr-0">
-    <div class="ctn d-inline-flex pl-0 pr-0" >
-        <div class="cl-8 nav-box-left justify-content-start d-xl-inline-flex d-lg-none">
-            <div class="rw align-items-center">
-                <a href="#"><img src="images/abclogonav.JPG" alt="abclogo"></a>
-                <a class="pl-2 pr-2" href="#">VIDEO</a>
-                <a class="pl-2 pr-2" href="#">LIVE</a>
-                <a class="pl-2 pr-2" href="#">SHOWS</a>
-                <a class="pl-2 pr-2" href="#">2020 Elections</a>
-                <a class="pl-2 pr-2" href="#"><img src="https://img.icons8.com/ios-filled/25/000000/squared-menu.png"></a>
-                <a class="pl-2 pr-2" href="#"><i class="fas fa-search"></i></a>
-            </div>            
-          </div >
-          <div class="cl-8 nav-box-left-mobile justify-content-start d-xl-none d-md-inline-flex">
-            <div class="rw d-inline-flex align-items-center mid-nav-trick">
-              <a href="#"><i class="fas fa-bars pl-2 pr-2"></i></a>
-              <a href="#" class="pl-2 pr-2"><img src="images/abclogonav.JPG" alt="abclogo"></a>
+  <!-- #region Head -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grid Framwork Demo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dgstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
+  <!-- #endregion -->
+  <body class="m-0">
+    <!-- #region Navbar -->
+    <nav class= "ctn-fld d-inline-flex pl-0 pr-0">
+      <div class="ctn d-inline-flex pl-0 pr-0" >
+          <div class="cl-8 nav-box-left justify-content-start d-xl-inline-flex d-lg-none">
+              <div class="rw align-items-center">
+                  <a href="#"><img src="images/abclogonav.JPG" alt="abclogo"></a>
+                  <a class="pl-2 pr-2" href="#">VIDEO</a>
+                  <a class="pl-2 pr-2" href="#">LIVE</a>
+                  <a class="pl-2 pr-2" href="#">SHOWS</a>
+                  <a class="pl-2 pr-2" href="#">2020 Elections</a>
+                  <a class="pl-2 pr-2" href="#"><img src="https://img.icons8.com/ios-filled/25/000000/squared-menu.png"></a>
+                  <a class="pl-2 pr-2" href="#"><i class="fas fa-search"></i></a>
+              </div>            
+            </div >
+            <div class="cl-8 nav-box-left-mobile justify-content-start d-xl-none d-md-inline-flex">
+              <div class="rw d-inline-flex align-items-center mid-nav-trick">
+                <a href="#"><i class="fas fa-bars pl-2 pr-2"></i></a>
+                <a href="#" class="pl-2 pr-2"><img src="images/abclogonav.JPG" alt="abclogo"></a>
+              </div>
+            </div>
+            <div class="cl-4 nav-box-right justify-content-end">
+              <div class="rw align-items-center">
+                  <i class="fas fa-bell pl-2 pr-2"></i>
+                  <a href="#" class="pl-2 pr-2"><div>Log In</div></a>
+              </div>
+            </div>
+      </div>
+    </nav>
+    <!-- #endregion -->
+    <main>
+      <div class="ctn main-cont">
+        <!-- #region Header -->
+        <header class="rw row-cont">
+          <!-- #region Header left -->
+          <div class="cl-lg-4 order-1 order-lg-3 col-header h-left">
+            <article class="headline">
+              <div class="d-xl-none pt-2 headline-title-div">
+                  <h3 class="headline-title">Top Stories</h3>
+              </div>
+              <div class="rw headline-row">              
+                <div class="headline-col">
+                  <ul class="mb-0 pl-0 headline-ul">
+                    <li class="headline-li">
+                      <div class="headline-div">
+                        <a href="#">Judge temporarily blocks Georgia abortion law</a>
+                      </div>
+                    </li>
+                    <li class="headline-li">
+                      <div class="headline-div">
+                        <a href="#">Zuckerberg will fight against Warren's tech policy</a>
+                      </div>
+                    </li>
+                    <li class="headline-li">
+                      <div class="headline-div">
+                        <a href="#">Federal judge upholds Harvard affirmative action</a>
+                      </div>
+                    </li>
+                    <li class="headline-li">
+                      <div class="headline-div">
+                        <a href="#">Arrests of 6-year-olds mirror incessant US problem</a>
+                      </div>
+                    </li>
+                    <li class="headline-li">
+                      <div class="headline-div">
+                        <a href="#">American service member injured in Somalia: DOD</a>
+                      </div>
+                    </li>
+                    <li class="headline-li">
+                      <div class="headline-div">
+                        <a href="#">Billionaire gives $109M to rebuild Notre Dame</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="d-sm-none headline-col">
+                  <ul class="mb-0 pl-0 headline-ul">
+                    <li class="headline-li">
+                      <div class="headline-div">
+                        <a href="#">Mass. vape shop owners sue over state's new ban</a>
+                      </div>
+                    </li>
+                    <li class="headline-li">
+                      <div class="headline-div">
+                        <a href="#">Iran leader's brother sentenced in corruption case</a>
+                      </div>
+                    </li>
+                    <li class="headline-li">
+                      <div class="headline-div">
+                        <a href="#">UPS certified to start drone deliveries</a>
+                      </div>
+                    </li>
+                    <li class="headline-li">
+                      <div class="headline-div">
+                        <a href="#">Dangerous, record breaking heat closes schools</a>
+                      </div>
+                    </li>
+                    <li class="headline-li">
+                      <div class="headline-div">
+                        <a href="#">Hong Kong police shoot teenage protester</a>
+                      </div>
+                    </li>
+                    <li class="d-xl-none headline-li">
+                      <div class="headline-div">
+                        <a href="#">'American hero': Police mourn slain Sikh deputy</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- #endregion -->
+          <!-- #region Header Mid -->
+          <div class="cl-lg-4 order-2 order-lg-1 col-header h-mid">
+            <div class="header-mid-img">
+              <a href="#">
+                <img src="images/head-1.jpg" class="img-fluid" alt="header img">
+              </a>
+            </div>
+            <a href="#">
+                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae debitis ratione soluta!</h3>
+            </a>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam hic numquam beatae!</p>
+            <span>22m ago</span>
+            <div class="mid-header-links">
+              <ul class="pl-0 mid-header-ul">
+                <li class="mid-header-li">
+                  <a href="#"><i class="fas fa-plus fa-xs"></i> 'We're not fooling around' says House Democrat leading impeachment probe</a>
+                </li>
+                <li class="mid-header-li">
+                  <a href="#"><i class="fas fa-plus fa-xs"></i> Pompeo confirms being on Trump's Ukraine call, doesn't answer whether appropriate</a>
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="cl-4 nav-box-right justify-content-end">
-            <div class="rw align-items-center">
-                <i class="fas fa-bell pl-2 pr-2"></i>
-                <a href="#" class="pl-2 pr-2"><div>Log In</div></a>
+          <!-- #endregion -->
+          <!-- #Region Header Right -->
+          <div class="cl-lg-4 order-3 order-lg-2 col-header h-right">
+            <div class="rw">
+              <div class="cl-md-6 cl-lg-12">
+                  <div class="header-mid-img">
+                    <a href="#">
+                      <img src="images/head-2.jpg" class="img-fluid" alt="header img">
+                    </a>
+                  </div>
+                  <a href="#">
+                      <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                  </a>
+                  <a href="#">
+                      <span>View alll</span>
+                  </a>
+              </div>
+              <div class="cl-md-6 cl-lg-12">
+                <div class="header-mid-img">
+                  <a href="#">
+                    <img src="images/head-2.jpg" class="img-fluid" alt="header img">
+                  </a>
+                </div>
+                <a href="#">
+                  <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                </a>
+                <a href="#">
+                  <span>View alll</span>
+                </a>
+              </div>
             </div>
           </div>
-    </div>
-  </nav>
-  <main>
-    <div class="ctn-fld main-cont rows">
-      <header class="rw row-cont">
-        <div class="cl-lg-4 order-1 order-lg-3 col-header h-left">
-          ARTICLE LIST
+          <!-- #endregion -->
+        </header>
+        <!-- #endregion -->
+
+        <!-- #region row2 -->
+        <div class="rw row-2">
+          <div class="cl-lg-4 cl-md-6 col-2-left">
+            <article class="trending-video headline">
+              <div class="pt-2 headline-title-div">
+                <h3 class="headline-title">Trending Videos</h3>
+              </div>
+              <div class="row-2-img">
+                <a href="#">
+                  <img src="images/row-2-1.jpg" class="img-fluid" alt="dolphins">
+                </a>
+              </div>
+              <div class="rw headline-row">              
+                <div class="headline-col">
+                  <ul class="mb-0 pl-0 headline-ul">
+                    <li class="headline-li">
+                      <div class="headline-div">
+                        <a href="#">Judge temporarily blocks Georgia abortion law</a>
+                      </div>
+                    </li>
+                    <li class="headline-li">
+                      <div class="headline-div">
+                        <a href="#">Zuckerberg will fight against Warren's tech policy</a>
+                      </div>
+                    </li>
+                    <li class="headline-li">
+                      <div class="headline-div">
+                        <a href="#">Federal judge upholds Harvard affirmative action</a>
+                      </div>
+                    </li>
+                    <li class="headline-li">
+                      <div class="headline-div">
+                        <a href="#">Arrests of 6-year-olds mirror incessant US problem</a>
+                      </div>
+                    </li>
+                    <li class="headline-li">
+                      <div class="headline-div">
+                        <a href="#">American service member injured in Somalia: DOD</a>
+                      </div>
+                    </li>
+                    <li class="headline-li">
+                      <div class="headline-div">
+                        <a href="#">Billionaire gives $109M to rebuild Notre Dame</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+            </article>
+          </div>
+          <div class="cl-lg-4 cl-md-6 col-2-mid">
+            <a href="#">
+              <img src="images/head-3.jpg" alt="#">
+            </a>
+          </div>
+          <div class="cl-lg-4 cl-md-6 col-2-right">
+            <a href="#">
+              <img src="images/head-6.jpg" alt="#">
+            </a>
+          </div>   
+          <div class="cl-lg-4 cl-md-6 col-2-right d-none d-sm-none d-md-block d-lg-none">
+            <a href="#">
+              <img src="images/head-7.jpg" alt="#">
+            </a>
+          </div>       
         </div>
-        <div class="cl-lg-4 order-2 order-lg-1 col-header h-mid">
-          VIDEO
-        </div>
-        <div class="cl-lg-4 order-3 order-lg-2 col-header h-right">
-          2 ROWS ARTICLE
-        </div>
-      </header>
-      <section>
-      </section>
-    </div>
-  </main>
-  <footer>
-  </footer>
-</body>
+        <!-- #endregion -->
+        
+        <!-- #region row3 -->
+        <section class="rw row-3">
+          <div class="cl-3"></div>
+          <div class="cl-3"></div>
+          <div class="cl-3"></div>
+          <div class="cl-3"></div>
+        </section>
+        <!-- #endregion -->
+      </div>
+    </main>
+    <footer>
+    </footer>
+  </body>
 </html>
