@@ -320,3 +320,40 @@ nav {
   }
 }
 
+.row-4 {
+  .list-row-4 {
+    width: 100%;
+    .headline-ul {
+      .headline-li {
+        border-bottom: 1px solid gray;        
+        list-style: none;
+        padding-bottom: 14px; 
+        padding-left: 20px;
+        padding-top: 14px;               
+        .headline-div {
+          a {
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
+          }
+          a:hover {
+            text-decoration: underline black;
+          }
+        } 
+      }
+    }
+  }
+}
+
+.img-row-4 a img {
+  width: 100%;
+  height: 540px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  .img-row-4 a img {
+    max-height: 452px;
+  }
+}
