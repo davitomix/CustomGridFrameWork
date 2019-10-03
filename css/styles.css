@@ -223,6 +223,7 @@ nav div .nav-box-right .rw a {
 
 .headline .headline-title-div {
   border-bottom: 1px solid #f2f2f2;
+  width: 100%;
 }
 
 .headline .headline-title-div .headline-title {
@@ -262,7 +263,23 @@ nav div .nav-box-right .rw a {
           text-decoration: underline black;
 }
 
-@media (max-width: 992px) and (min-width: 576px) {
+.headline figcaption a {
+  text-decoration: none;
+}
+
+.headline figcaption a h4 {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.headline figcaption a:hover {
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+}
+
+@media (max-width: 992px) and (min-width: 750px) {
   .headline .headline-col {
     width: 50%;
   }
@@ -307,7 +324,31 @@ nav div .nav-box-right .rw a {
 }
 
 .row-3 {
-  min-height: 100px;
   background-color: antiquewhite;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  min-height: 100px;
+}
+
+@media (max-width: 750px) and (min-width: 150px) {
+  .row-3 .headline-title-div {
+    margin-left: 3%;
+  }
+}
+
+.row-3 .politics-col {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 750px) and (min-width: 150px) {
+  .row-3 .politics-col {
+    margin: 1%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

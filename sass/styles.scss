@@ -202,6 +202,7 @@ nav {
 .headline {
   .headline-title-div {
     border-bottom: 1px solid #f2f2f2;
+    width: 100%;
     .headline-title {
       font-size: 13px;
       font-weight: 900;
@@ -211,6 +212,7 @@ nav {
       text-transform: uppercase;      
       letter-spacing: 1px;
     }
+    
   }
   .headerline-row {
     color: black;    
@@ -237,7 +239,21 @@ nav {
       }
     }
   }
-  @media (max-width: 992px) and (min-width: 576px) {
+  figcaption {
+    a {
+      text-decoration: none;
+      h4 {
+        color: black;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px        
+      }
+    }
+    a:hover {
+      text-decoration: underline black;
+    }
+  }
+  @media (max-width: 992px) and (min-width: 750px) {
     .headline-col {
       width: 50%;
       .headline-ul {
@@ -282,7 +298,25 @@ nav {
 }
 
 .row-3 {
-  min-height: 100px;
   background-color: antiquewhite;
+  display: inline-flex;
+  flex-direction: row;
+  min-height: 100px;
+
+  @media (max-width: 750px) and (min-width: 150px) {
+    .headline-title-div {
+      margin-left: 3%;
+    }
+  }
+
+  .politics-col {
+    height: 100%;
+    width: 100%;
+  }
+  @media (max-width: 750px) and (min-width: 150px) {
+    .politics-col {
+      margin: 1%;
+    }
+  }
 }
 
