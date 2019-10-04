@@ -392,6 +392,24 @@ nav div .nav-box-right .rw a {
   }
 }
 
+.row-6 .feature .feature-img1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(150%, #333333)), url(../images/row6-1.jpg) center;
+  background: linear-gradient(to bottom, transparent, #333333 150%), url(../images/row6-1.jpg) center;
+  background-position: center;
+  background-size: cover;
+  min-height: 342px;
+  width: 100%;
+}
+
+.row-6 .feature .feature-img2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(150%, #333333)), url(../images/row6-2.jpg) center;
+  background: linear-gradient(to bottom, transparent, #333333 150%), url(../images/row6-2.jpg) center;
+  background-position: center;
+  background-size: cover;
+  min-height: 342px;
+  width: 100%;
+}
+
 .row-7 .list-row-7 {
   width: 100%;
 }
@@ -422,5 +440,14 @@ nav div .nav-box-right .rw a {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+}
+
+.row-8 .feature .feature-img4 {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(150%, #333333)), url(../images/row8.jpg) center;
+  background: linear-gradient(to bottom, transparent, #333333 150%), url(../images/row8.jpg) center;
+  background-position: center;
+  background-size: cover;
+  min-height: 456px;
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */

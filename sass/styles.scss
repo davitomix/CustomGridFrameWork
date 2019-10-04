@@ -359,6 +359,25 @@ nav {
   }
 }
 
+.row-6 {
+  .feature {
+    .feature-img1 {
+      background: linear-gradient(to bottom, transparent, rgb(51, 51, 51) 150%), url(../images/row6-1.jpg) center;
+      background-position: center;
+      background-size: cover;
+      min-height: 342px;
+      width: 100%;
+    }
+    .feature-img2 {
+      background: linear-gradient(to bottom, transparent, rgb(51, 51, 51) 150%), url(../images/row6-2.jpg) center;
+      background-position: center;
+      background-size: cover;
+      min-height: 342px;
+      width: 100%;
+    }    
+  }
+}
+
 .row-7 {
   .list-row-7 {
     width: 100%;
@@ -390,5 +409,17 @@ nav {
     height: 310px;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+}
+
+.row-8 {
+  .feature {
+    .feature-img4 {
+      background: linear-gradient(to bottom, transparent, rgb(51, 51, 51) 150%), url(../images/row8.jpg) center;
+      background-position: center;
+      background-size: cover;
+      min-height: 456px;
+      width: 100%;
+    }    
   }
 }
