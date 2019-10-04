@@ -26,32 +26,20 @@ body {
   left: 40%;
   text-align: left;
   position: absolute;
-  top: 55%;
-  transform: translate(-38%, 80%);
-  width: 85%;
+  top: 50%;
+  transform: translate(-37%, 80%);
+  width: 90%;
 }
 
 .img-title:hover {
   text-decoration: underline white;
 }
 
-.img-big-title {
-  color: white;
-  font-size: 22px;
-  line-height: 20px;
-  left: 38%;
-  margin: 10px 10px 0;
-  text-align: left;
-  position: absolute;
-  top: 73%;
-  transform: translate(-35%, 80%);
-}
-
 .img-date {
   color: darkgrey;
   font-size: 14px;
-  font-weight: bolder;
   line-height: 20px;
+  font-weight: bolder;
   margin: 10px 0 0;
   left: 12%;
   text-align: left;
@@ -60,28 +48,32 @@ body {
   transform: translate(-55%, 70%);
 }
 
+.img-big-title {
+  color: white;
+  font-size: 22px;
+  left: 43%;
+  text-align: left;
+  position: absolute;
+  top: 73%;
+  transform: translate(-37%, 80%);
+  width: 90%;
+}
+
+.img-big-title:hover {
+  text-decoration: underline white;
+}
+
 .img-big-date {
   color: darkgrey;
   font-size: 14px;
   line-height: 20px;
   font-weight: bolder;
   margin: 10px 0 0;
-  left: 4%;
+  left: 8%;
   text-align: left;
   position: absolute;
-  top: 90%;
+  top: 88%;
   transform: translate(-55%, 70%);
-}
-
-@media (max-width: 992px) and (min-width: 767px) {
-  .img-title {
-    font-size: 18px;
-    top: 55%;
-  }
-
-  .img-date {
-    left: 12%;
-  }
 }
 
 a:hover {
@@ -92,3 +84,4 @@ a {
   background: transparent;
   text-decoration: none;
 }
+
