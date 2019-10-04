@@ -430,3 +430,31 @@ nav {
     }    
   }
 }
+
+.row-9 {
+  div div {
+    min-height: 100px;
+    background: #aaa;
+  }
+}
+
+.img-row-9 a img {
+  width: 100%;
+  min-height: 410px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 767px) and (min-width: 100px) {
+  div div:nth-child(4) a img {
+    max-height: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .row-9 {
+    div div:nth-child(4) a img {
+      height: 100%;
+    }
+  }
+}
