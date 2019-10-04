@@ -106,14 +106,14 @@ nav div .nav-box-right .rw a {
 .main-cont header .h-mid span {
   color: #aaa;
   font-size: 12px;
-  line-height: 20px;
   font-weight: 200;
+  line-height: 20px;
 }
 
 .main-cont header .h-mid .mid-header-links .mid-header-ul .mid-header-li {
   list-style: none;
-  padding: 2% 0 2% 0;
   margin: 1% 0 1% 0;
+  padding: 2% 0 2% 0;
 }
 
 .main-cont header .h-mid .mid-header-links .mid-header-ul .mid-header-li a {
@@ -136,8 +136,8 @@ nav div .nav-box-right .rw a {
 }
 
 .main-cont header .h-right .rw div:first-of-type {
-  min-height: 100px;
   background-color: #9eb95e;
+  min-height: 100px;
   padding-bottom: 10px;
 }
 
@@ -162,8 +162,8 @@ nav div .nav-box-right .rw a {
 .main-cont header .h-right .rw div:first-of-type a span {
   color: #aaa;
   font-size: 12px;
-  line-height: 20px;
   font-weight: 200;
+  line-height: 20px;
 }
 
 .main-cont header .h-right .rw div:first-of-type a span:hover {
@@ -177,8 +177,8 @@ nav div .nav-box-right .rw a {
 }
 
 .main-cont header .h-right .rw div:last-of-type {
-  min-height: 100px;
   background-color: #b95e84;
+  min-height: 100px;
   padding-bottom: 10px;
 }
 
@@ -487,10 +487,10 @@ div div:nth-child(4) a img {
 }
 
 .img-row-9 a img {
-  width: 100%;
   min-height: 410px;
   padding-top: 10px;
   padding-bottom: 5px;
+  width: 100%;
 }
 
 @media (max-width: 767px) and (min-width: 100px) {
@@ -503,5 +503,59 @@ div div:nth-child(4) a img {
   .row-9 div div:nth-child(4) a img {
     height: 100%;
   }
+}
+
+.top-footer {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.top-footer .top-right-footer {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.top-footer .top-right-footer:hover {
+  cursor: pointer;
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+}
+
+.mid-footer .footer-list h3 {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  line-height: 1.4;
+  padding-bottom: 13px;
+}
+
+.mid-footer .footer-list ul li {
+  list-style: none;
+  margin: 1% 0 1% 0;
+  padding: 2% 0 2% 0;
+}
+
+.mid-footer .footer-list ul li a {
+  color: black;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.mid-footer .footer-list ul li a:hover {
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+}
+
+.last-footer .last-left-footer {
+  color: #aaa;
+  display: inline-block;
+  font-size: 12px;
+  text-align: start;
+}
+
+.last-footer .last-right-footer {
+  color: #aaa;
+  display: inline-block;
+  font-size: 12px;
+  text-align: right;
 }
 /*# sourceMappingURL=styles.css.map */

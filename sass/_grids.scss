@@ -1199,6 +1199,12 @@ html {
   }
 }
 
+@media (max-width: 577px)  and (min-width: 10px) {
+  .d-xs-none {
+    display: none !important;
+  }
+}
+
 @media (min-width: 576px) {
   .d-sm-none {
     display: none !important;
@@ -1326,6 +1332,3 @@ html {
     display: inline-flex !important;
   }
 }
-
-
-
