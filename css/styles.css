@@ -433,6 +433,13 @@ nav div .nav-box-right .rw a {
           text-decoration: underline black;
 }
 
+.img-row-7 a img {
+  width: 100%;
+  height: 540px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 @media (max-width: 768px) and (min-width: 100px) {
   .img-row-7 a img {
     width: 100%;
