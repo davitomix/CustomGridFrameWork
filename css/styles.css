@@ -458,6 +458,10 @@ nav div .nav-box-right .rw a {
   width: 100%;
 }
 
+.row-8 .feature .feature-img4 a > h3 {
+  width: 100%;
+}
+
 .row-9 div div {
   min-height: 100px;
   background: #aaa;
