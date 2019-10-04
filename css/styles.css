@@ -410,8 +410,17 @@ nav div .nav-box-right .rw a {
   width: 100%;
 }
 
+.row-7 .headline-title-div h3 {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
 .row-7 .list-row-7 {
   width: 100%;
+}
+
+.row-7 .list-row-7 div .img-row-7 {
+  padding: 0;
 }
 
 .row-7 .list-row-7 .headline-ul .headline-li {
@@ -458,9 +467,23 @@ nav div .nav-box-right .rw a {
   width: 100%;
 }
 
+.row-8 .feature .feature-img4 a > h3 {
+  width: 100%;
+}
+
 .row-9 div div {
   min-height: 100px;
   background: #aaa;
+}
+
+div div:nth-child(1) a img {
+  padding-left: 15px !important;
+}
+
+div div:nth-child(2) a img,
+div div:nth-child(3) a img,
+div div:nth-child(5) a img {
+  padding-right: 15px !important;
 }
 
 .img-row-9 a img {
