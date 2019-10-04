@@ -223,6 +223,7 @@ nav div .nav-box-right .rw a {
 
 .headline .headline-title-div {
   border-bottom: 1px solid #f2f2f2;
+  width: 100%;
 }
 
 .headline .headline-title-div .headline-title {
@@ -262,7 +263,23 @@ nav div .nav-box-right .rw a {
           text-decoration: underline black;
 }
 
-@media (max-width: 992px) and (min-width: 576px) {
+.headline figcaption a {
+  text-decoration: none;
+}
+
+.headline figcaption a h4 {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.headline figcaption a:hover {
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+}
+
+@media (max-width: 992px) and (min-width: 750px) {
   .headline .headline-col {
     width: 50%;
   }
@@ -306,8 +323,185 @@ nav div .nav-box-right .rw a {
   height: 500px;
 }
 
+.row-5,
 .row-3 {
-  min-height: 100px;
   background-color: antiquewhite;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  min-height: 100px;
+}
+
+@media (max-width: 750px) and (min-width: 150px) {
+  .row-5 .headline-title-div,
+  .row-3 .headline-title-div {
+    margin-left: 3%;
+  }
+}
+
+.row-5 .politics-col,
+.row-3 .politics-col {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 750px) and (min-width: 150px) {
+  .row-5 .politics-col,
+  .row-3 .politics-col {
+    margin: 1%;
+  }
+}
+
+.row-4 .list-row-4 {
+  width: 100%;
+}
+
+.row-4 .list-row-4 .headline-ul .headline-li {
+  border-bottom: 1px solid gray;
+  list-style: none;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-top: 14px;
+}
+
+.row-4 .list-row-4 .headline-ul .headline-li .headline-div a {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.row-4 .list-row-4 .headline-ul .headline-li .headline-div a:hover {
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+}
+
+.img-row-4 a img {
+  width: 100%;
+  height: 540px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  .img-row-4 a img {
+    max-height: 452px;
+  }
+}
+
+.row-6 .feature .feature-img1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(150%, #333333)), url(../images/row6-1.jpg) center;
+  background: linear-gradient(to bottom, transparent, #333333 150%), url(../images/row6-1.jpg) center;
+  background-position: center;
+  background-size: cover;
+  min-height: 342px;
+  width: 100%;
+}
+
+.row-6 .feature .feature-img2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(150%, #333333)), url(../images/row6-2.jpg) center;
+  background: linear-gradient(to bottom, transparent, #333333 150%), url(../images/row6-2.jpg) center;
+  background-position: center;
+  background-size: cover;
+  min-height: 342px;
+  width: 100%;
+}
+
+.row-7 .headline-title-div h3 {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.row-7 .list-row-7 {
+  width: 100%;
+}
+
+.row-7 .list-row-7 div .img-row-7 {
+  padding: 0;
+}
+
+.row-7 .list-row-7 .headline-ul .headline-li {
+  border-bottom: 1px solid gray;
+  list-style: none;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-top: 14px;
+}
+
+.row-7 .list-row-7 .headline-ul .headline-li .headline-div a {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.row-7 .list-row-7 .headline-ul .headline-li .headline-div a:hover {
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+}
+
+.img-row-7 a img {
+  width: 100%;
+  height: 540px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 768px) and (min-width: 100px) {
+  .img-row-7 a img {
+    width: 100%;
+    height: 310px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.row-8 .feature .feature-img4 {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(150%, #333333)), url(../images/row8.jpg) center;
+  background: linear-gradient(to bottom, transparent, #333333 150%), url(../images/row8.jpg) center;
+  background-position: center;
+  background-size: cover;
+  min-height: 456px;
+  width: 100%;
+}
+
+.row-8 .feature .feature-img4 a > h3 {
+  width: 100%;
+}
+
+.row-9 div div {
+  min-height: 100px;
+  background: #aaa;
+}
+
+div div:nth-child(1) a img {
+  padding-left: 15px !important;
+}
+
+div div:nth-child(2) a img,
+div div:nth-child(3) a img,
+div div:nth-child(4) a img {
+  padding-right: 15px !important;
+}
+
+.img-row-9 a img {
+  width: 100%;
+  min-height: 410px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 767px) and (min-width: 100px) {
+  div div:nth-child(4) a img {
+    max-height: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .row-9 div div:nth-child(4) a img {
+    height: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
