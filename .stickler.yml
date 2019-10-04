@@ -7,4 +7,5 @@ files:
     - 'css/dgstrap.css*'
     - 'css/dgstrap.min.css*'
     - 'css/styles.css*'
+    - 'css/styles.min.css*'
     - 'css/_grids.scss*'
