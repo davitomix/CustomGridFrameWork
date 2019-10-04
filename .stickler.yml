@@ -4,4 +4,5 @@ linters:
     ignore: 'box-model,ids'
 files:
   ignore: 
-    - 'css/reset.css*'
+    - 'css/dgstrap.css*'
+    - 'css/_grids.scss*'
