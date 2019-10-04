@@ -429,8 +429,17 @@ nav {
 }
 
 .row-7 {
+  .headline-title-div h3 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
   .list-row-7 {
     width: 100%;
+
+    div .img-row-7 {
+      padding: 0;
+    }
 
     .headline-ul {
       .headline-li {
@@ -493,6 +502,16 @@ nav {
     min-height: 100px;
     background: #aaa;
   }
+}
+
+div div:nth-child(1) a img {
+  padding-left: 15px !important;
+}
+
+div div:nth-child(2) a img,
+div div:nth-child(3) a img,
+div div:nth-child(5) a img {
+  padding-right: 15px !important;
 }
 
 .img-row-9 a img {
