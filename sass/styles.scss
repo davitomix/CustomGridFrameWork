@@ -1,12 +1,9 @@
-@import "variables";
-
 nav {
   min-height: 72px;
 
   div {
     .nav-box-left {
-      background-color: $randomcolor-4;
-      border-bottom: 2px solid rgb(252, 21, 34);
+      border-bottom: 2px solid #f2f2f2;
       display: inline-flex;
 
       .rw {
@@ -47,8 +44,7 @@ nav {
     }
 
     .nav-box-right {
-      background-color: $randomcolor-5;
-      border-bottom: 2px solid rgb(252, 21, 34);
+      border-bottom: 2px solid #f2f2f2;
       display: inline-flex;
 
       .rw {
@@ -73,10 +69,6 @@ nav {
   header {
     .col-header {
       min-height: 100px;
-    }
-
-    .h-left {
-      background-color: $randomcolor-2;
     }
 
     .h-mid {
@@ -141,10 +133,7 @@ nav {
     }
 
     .h-right {
-      background-color: $randomcolor-3;
-
       .rw div:first-of-type {
-        background-color: $randomcolor-1;
         min-height: 100px;
         padding-bottom: 10px;
 
@@ -185,7 +174,6 @@ nav {
       }
 
       .rw div:last-of-type {
-        background-color: $randomcolor-5;
         min-height: 100px;
         padding-bottom: 10px;
 
@@ -252,6 +240,7 @@ nav {
     color: black;
   }
 
+  .headliner-col,
   .headline-col {
     width: 100%;
 
@@ -264,25 +253,27 @@ nav {
         padding-top: 14px;
 
         .headline-div {
-          a {
-            color: black;
-            font-size: 14px;
-            font-weight: bold;
-          }
+          h4 {
+            a {
+              color: black;
+              font-size: 14px;
+              font-weight: bold;
+            }
 
-          a:hover {
-            text-decoration: underline black;
+            a:hover {
+              text-decoration: underline black;
+            }
           }
         }
       }
     }
   }
 
-  figcaption {
-    a {
+  .figcaption {
+    h4 {
       text-decoration: none;
 
-      h4 {
+      a {
         color: black;
         font-weight: 600;
         font-size: 14px;
@@ -315,8 +306,6 @@ nav {
 }
 
 .col-2-left {
-  background-color: $randomcolor-3;
-
   .trending-video {
     .headline-title-div {
       border: 0;
@@ -325,13 +314,11 @@ nav {
 }
 
 .col-2-mid {
-  background-color: #666;
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
 .col-2-right {
-  background-color: #666;
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -344,7 +331,6 @@ nav {
 
 .row-5,
 .row-3 {
-  background-color: antiquewhite;
   display: inline-flex;
   flex-direction: row;
   min-height: 100px;
@@ -367,6 +353,7 @@ nav {
   }
 }
 
+.row-11,
 .row-4 {
   .list-row-4 {
     width: 100%;
@@ -500,7 +487,6 @@ nav {
 .row-9 {
   div div {
     min-height: 100px;
-    background: #aaa;
   }
 }
 
