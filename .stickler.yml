@@ -1,0 +1,17 @@
+linters:
+  stylelint:
+    config: 'stylelint.config.js'
+    ignore: 'box-model,ids'
+files:
+  ignore: 
+    - 'css/reset.css*'
+    - 'css/dgstrap.css*'
+    - 'css/dgstrap.min.css*'
+    - 'css/styles.css*'
+    - 'css/styles.min.css*'
+    - 'sass/_grids.scss*'
+    - 'sass/_block.scss*'
+    - 'sass/_fonts.scss*'
+    - 'sass/_spacing.scss*'
+    - 'sass/dgstrap.scss*'
+    - 'sass/styles.scss*'

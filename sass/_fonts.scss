@@ -1,0 +1,81 @@
+body {
+  background: #fff;
+  -ms-overflow-style: scrollbar;
+  font: 16px "Proxima-Nova", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-weight: normal;
+}
+
+.img-text {
+  color: #fff;
+  font-weight: 300;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.img-title {
+  color: white;
+  font-size: 22px;
+  line-height: 24px;
+  left: 40%;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  transform: translate(-37%, 80%);
+  width: 90%;
+}
+
+.img-title:hover {
+  text-decoration: underline white;
+}
+
+.img-date {
+  color: darkgrey;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bolder;
+  margin: 10px 0 0;
+  left: 12%;
+  text-align: left;
+  position: absolute;
+  top: 85%;
+  transform: translate(-55%, 70%);
+}
+
+.img-big-title {
+  color: white;
+  font-size: 22px;
+  left: 40%;
+  text-align: left;
+  position: absolute;
+  top: 73%;
+  transform: translate(-37%, 80%);
+  width: 90%;
+}
+
+.img-big-title:hover {
+  text-decoration: underline white;
+}
+
+.img-big-date {
+  color: darkgrey;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bolder;
+  margin: 10px 0 0;
+  left: 8%;
+  text-align: left;
+  position: absolute;
+  top: 88%;
+  transform: translate(-55%, 70%);
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+a {
+  background: transparent;
+  text-decoration: none;
+}
