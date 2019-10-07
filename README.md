@@ -27,16 +27,16 @@ Applying the Framework
 
 ## SASS Structure
 
-|– dgstrap.scss		// Compiled from below
+|– dgstrap.scss			// Compiled from below
 |   |– _block.scss
 |   |– _fonts.scss
 |   |– _grids.scss
 |   |– _spacing.scss
 
-|– styles.css		// Compiled from below
+|– styles.css			// Compiled from below
 |   |– SASS/styles.scss
 
-|– dgstrap.css		// Compiled from below
+|– dgstrap.css			// Compiled from below
 |   |– SASS/dgstrap.scss
 
 * [Live preview]()
@@ -51,5 +51,5 @@ https://github.com/davitomix/CustomGridFrameWork
 
 
 ## Contributors
-[David Martinez](https://github.com/davitomix)
-[Gerald Goh](https://github.com/geraldgsh/)
+David Martinez [GitHub](https://github.com/davitomix)
+Gerald Goh [GItHub](https://github.com/geraldgsh/)
