@@ -407,8 +407,8 @@ nav div .nav-box-right .rw a {
 }
 
 .row-7 .headline-title-div h3 {
-  padding-left: 15px !important;
-  padding-right: 15px !important;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .row-7 .list-row-7 {
@@ -472,13 +472,13 @@ nav div .nav-box-right .rw a {
 }
 
 div div:nth-child(1) a img {
-  padding-left: 15px !important;
+  padding-left: 15px;
 }
 
 div div:nth-child(2) a img,
 div div:nth-child(3) a img,
 div div:nth-child(4) a img {
-  padding-right: 15px !important;
+  padding-right: 15px;
 }
 
 .img-row-9 a img {
