@@ -3,6 +3,7 @@ nav {
 
   div {
     .nav-box-left {
+      background-color: white;
       border-bottom: 2px solid #f2f2f2;
       display: inline-flex;
 
@@ -30,6 +31,11 @@ nav {
       }
     }
 
+    .nav-box-left-mobile {
+      background-color: white;
+      border-bottom: 2px solid #f2f2f2;
+    }
+
     .nav-box-left {
       display: none;
     }
@@ -44,6 +50,7 @@ nav {
     }
 
     .nav-box-right {
+      background-color: white;
       border-bottom: 2px solid #f2f2f2;
       display: inline-flex;
 

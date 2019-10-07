@@ -53,21 +53,6 @@
   align-items: stretch !important;
 }
 
-.order-first {
-  -ms-flex-order: -1;
-  order: -1;
-}
-
-.order-last {
-  -ms-flex-order: 13;
-  order: 13;
-}
-
-.order-0 {
-  -ms-flex-order: 0;
-  order: 0;
-}
-
 .order-1 {
   -ms-flex-order: 1;
   order: 1;
@@ -81,51 +66,6 @@
 .order-3 {
   -ms-flex-order: 3;
   order: 3;
-}
-
-.order-4 {
-  -ms-flex-order: 4;
-  order: 4;
-}
-
-.order-5 {
-  -ms-flex-order: 5;
-  order: 5;
-}
-
-.order-6 {
-  -ms-flex-order: 6;
-  order: 6;
-}
-
-.order-7 {
-  -ms-flex-order: 7;
-  order: 7;
-}
-
-.order-8 {
-  -ms-flex-order: 8;
-  order: 8;
-}
-
-.order-9 {
-  -ms-flex-order: 9;
-  order: 9;
-}
-
-.order-10 {
-  -ms-flex-order: 10;
-  order: 10;
-}
-
-.order-11 {
-  -ms-flex-order: 11;
-  order: 11;
-}
-
-.order-12 {
-  -ms-flex-order: 12;
-  order: 12;
 }
 
 @media (max-width: 577px)  and (min-width: 10px) {
@@ -149,18 +89,6 @@
 
   .d-sm-block {
     display: block !important;
-  }
-
-  .d-sm-table {
-    display: table !important;
-  }
-
-  .d-sm-table-row {
-    display: table-row !important;
-  }
-
-  .d-sm-table-cell {
-    display: table-cell !important;
   }
 
   .d-sm-flex {
@@ -189,18 +117,6 @@
 
   .d-md-block {
     display: block !important;
-  }
-
-  .d-md-table {
-    display: table !important;
-  }
-
-  .d-md-table-row {
-    display: table-row !important;
-  }
-
-  .d-md-table-cell {
-    display: table-cell !important;
   }
 
   .d-md-flex {
@@ -252,6 +168,21 @@
     display: -ms-inline-flexbox !important;
     display: inline-flex !important;
   }
+
+  .order-lg-1 {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .order-lg-2 {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .order-lg-3 {
+    -ms-flex-order: 3;
+    order: 3;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -271,18 +202,6 @@
     display: block !important;
   }
 
-  .d-xl-table {
-    display: table !important;
-  }
-
-  .d-xl-table-row {
-    display: table-row !important;
-  }
-
-  .d-xl-table-cell {
-    display: table-cell !important;
-  }
-
   .d-xl-flex {
     display: -ms-flexbox !important;
     display: flex !important;
@@ -292,4 +211,12 @@
     display: -ms-inline-flexbox !important;
     display: inline-flex !important;
   }
+}
+
+.top-fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }

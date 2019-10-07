@@ -3,6 +3,7 @@ nav {
 }
 
 nav div .nav-box-left {
+  background-color: white;
   border-bottom: 2px solid #f2f2f2;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -30,6 +31,11 @@ nav div .nav-box-left .rw a:nth-of-type(6) img {
   width: 20px;
 }
 
+nav div .nav-box-left-mobile {
+  background-color: white;
+  border-bottom: 2px solid #f2f2f2;
+}
+
 nav div .nav-box-left {
   display: none;
 }
@@ -44,6 +50,7 @@ nav div .mid-nav-trick {
 }
 
 nav div .nav-box-right {
+  background-color: white;
   border-bottom: 2px solid #f2f2f2;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;

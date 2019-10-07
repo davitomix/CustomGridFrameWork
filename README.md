@@ -14,6 +14,7 @@ Responsiveness;
 Applying the Framework
 
 1. Create a new HTML document and a new Github repository.
+
 2. Identify the webpage you’d like to clone and break it down into its major elements like we have in the previous projects.
 
 3. Add your framework to your project.
@@ -32,11 +33,11 @@ Applying the Framework
 |   |– _grids.scss
 |   |– _spacing.scss
 
-|– styles.scss		// Compiled from below
-|   |– css/styles.css
+|– styles.css		// Compiled from below
+|   |– SASS/styles.scss
 
-|– dgstrap.scss		// Compiled from below
-|   |– css/dgstrap.css
+|– dgstrap.css		// Compiled from below
+|   |– SASS/dgstrap.scss
 
 * [Live preview]()
 
