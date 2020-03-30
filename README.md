@@ -1,5 +1,9 @@
 # Microverse Project Title - Design Your Own Grid-based Framework [Collaborative Project]
 
+### Snapshot
+
+![]()
+
 ## Description
 This assignment consists of building a grid-based framework (similar to bootstrap) that includes some basic functionality necessary to build a website.
 
