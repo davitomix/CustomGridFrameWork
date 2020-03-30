@@ -2,7 +2,7 @@
 
 ### Snapshot
 
-![]()
+![](https://github.com/davitomix/CustomGridFrameWork/blob/master/images/screnshot.JPG)
 
 ## Description
 This assignment consists of building a grid-based framework (similar to bootstrap) that includes some basic functionality necessary to build a website.
@@ -29,6 +29,9 @@ Applying the Framework
 
 6. Push your solution to Github.
 
+#### Getting Started
+Clone repo and run index.html
+
 ## SASS Structure
 
 |– dgstrap.scss			// Compiled from below
@@ -43,9 +46,13 @@ Applying the Framework
 |– dgstrap.css			// Compiled from below
 |   |– SASS/dgstrap.scss
 
-* [Live preview]()
+* [Live preview](https://rawcdn.githack.com/davitomix/CustomGridFrameWork/b5320d1646cea5bc2e0e9bdbcfe881e37083e70f/index.html)
 
 <img  align="right" src="images/backgroundgit.png">
+
+## Future Enhancement
+
+None 
 
 ## Source
 https://www.theodinproject.com/courses/html5-and-css3/lessons/design-your-own-grid-based-framework
@@ -53,7 +60,6 @@ https://www.theodinproject.com/courses/html5-and-css3/lessons/design-your-own-gr
 ## Github Repo
 https://github.com/davitomix/CustomGridFrameWork
 
-
 ## Contributors
-David Martinez [GitHub](https://github.com/davitomix)
+David Martinez [GitHub](https://github.com/davitomix)<br>
 Gerald Goh [GItHub](https://github.com/geraldgsh/)
