@@ -48,7 +48,7 @@ Clone repo and run index.html
 
 * [Live preview](https://rawcdn.githack.com/davitomix/CustomGridFrameWork/b5320d1646cea5bc2e0e9bdbcfe881e37083e70f/index.html)
 
-<img  align="right" src="images/backgroundgit.png">
+![](https://github.com/davitomix/CustomGridFrameWork/blob/master/images/backgroundgit.png)
 
 ## Future Enhancement
 
